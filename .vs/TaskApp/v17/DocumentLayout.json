@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36A3FC8F-4417-450A-A3FD-A88130D79493}|TaskApp.DAL\\TaskApp.DAL.csproj|c:\\users\\smart\\onedrive\\desktop\\taskapp\\taskapp.dal\\repo\\abstraction\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A3FC8F-4417-450A-A3FD-A88130D79493}|TaskApp.DAL\\TaskApp.DAL.csproj|solutionrelative:taskapp.dal\\repo\\abstraction\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2037FF03-515E-4DBD-ACF9-6F66C0802137}|TaskApp.API\\TaskApp.API.csproj|c:\\users\\smart\\onedrive\\desktop\\taskapp\\taskapp.api\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2037FF03-515E-4DBD-ACF9-6F66C0802137}|TaskApp.API\\TaskApp.API.csproj|solutionrelative:taskapp.api\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1F3A78-42DD-4FEF-98AD-DBF79C135EB0}|TaskApp.Business\\TaskApp.Business.csproj|c:\\users\\smart\\onedrive\\desktop\\taskapp\\taskapp.business\\service\\implementation\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1F3A78-42DD-4FEF-98AD-DBF79C135EB0}|TaskApp.Business\\TaskApp.Business.csproj|solutionrelative:taskapp.business\\service\\implementation\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A3FC8F-4417-450A-A3FD-A88130D79493}|TaskApp.DAL\\TaskApp.DAL.csproj|c:\\users\\smart\\onedrive\\desktop\\taskapp\\taskapp.dal\\repo\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A3FC8F-4417-450A-A3FD-A88130D79493}|TaskApp.DAL\\TaskApp.DAL.csproj|solutionrelative:taskapp.dal\\repo\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1F3A78-42DD-4FEF-98AD-DBF79C135EB0}|TaskApp.Business\\TaskApp.Business.csproj|c:\\users\\smart\\onedrive\\desktop\\taskapp\\taskapp.business\\service\\interface\\itagservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1F3A78-42DD-4FEF-98AD-DBF79C135EB0}|TaskApp.Business\\TaskApp.Business.csproj|solutionrelative:taskapp.business\\service\\interface\\itagservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A3FC8F-4417-450A-A3FD-A88130D79493}|TaskApp.DAL\\TaskApp.DAL.csproj|c:\\users\\smart\\onedrive\\desktop\\taskapp\\taskapp.dal\\repo\\interface\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A3FC8F-4417-450A-A3FD-A88130D79493}|TaskApp.DAL\\TaskApp.DAL.csproj|solutionrelative:taskapp.dal\\repo\\interface\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1F3A78-42DD-4FEF-98AD-DBF79C135EB0}|TaskApp.Business\\TaskApp.Business.csproj|c:\\users\\smart\\onedrive\\desktop\\taskapp\\taskapp.business\\helper\\mapper\\tagprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1F3A78-42DD-4FEF-98AD-DBF79C135EB0}|TaskApp.Business\\TaskApp.Business.csproj|solutionrelative:taskapp.business\\helper\\mapper\\tagprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A3FC8F-4417-450A-A3FD-A88130D79493}|TaskApp.DAL\\TaskApp.DAL.csproj|c:\\users\\smart\\onedrive\\desktop\\taskapp\\taskapp.dal\\repo\\abstraction\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A3FC8F-4417-450A-A3FD-A88130D79493}|TaskApp.DAL\\TaskApp.DAL.csproj|solutionrelative:taskapp.dal\\repo\\abstraction\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1F3A78-42DD-4FEF-98AD-DBF79C135EB0}|TaskApp.Business\\TaskApp.Business.csproj|c:\\users\\smart\\onedrive\\desktop\\taskapp\\taskapp.business\\dtos\\tag\\createtagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1F3A78-42DD-4FEF-98AD-DBF79C135EB0}|TaskApp.Business\\TaskApp.Business.csproj|solutionrelative:taskapp.business\\dtos\\tag\\createtagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1F3A78-42DD-4FEF-98AD-DBF79C135EB0}|TaskApp.Business\\TaskApp.Business.csproj|c:\\users\\smart\\onedrive\\desktop\\taskapp\\taskapp.business\\dtos\\tag\\gettagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1F3A78-42DD-4FEF-98AD-DBF79C135EB0}|TaskApp.Business\\TaskApp.Business.csproj|solutionrelative:taskapp.business\\dtos\\tag\\gettagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E1F3A78-42DD-4FEF-98AD-DBF79C135EB0}|TaskApp.Business\\TaskApp.Business.csproj|c:\\users\\smart\\onedrive\\desktop\\taskapp\\taskapp.business\\dtos\\tag\\updatetagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1F3A78-42DD-4FEF-98AD-DBF79C135EB0}|TaskApp.Business\\TaskApp.Business.csproj|solutionrelative:taskapp.business\\dtos\\tag\\updatetagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2037FF03-515E-4DBD-ACF9-6F66C0802137}|TaskApp.API\\TaskApp.API.csproj|c:\\users\\smart\\onedrive\\desktop\\taskapp\\taskapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2037FF03-515E-4DBD-ACF9-6F66C0802137}|TaskApp.API\\TaskApp.API.csproj|solutionrelative:taskapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TagProfile.cs",
+              "DocumentMoniker": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\Helper\\Mapper\\TagProfile.cs",
+              "RelativeDocumentMoniker": "TaskApp.Business\\Helper\\Mapper\\TagProfile.cs",
+              "ToolTip": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\Helper\\Mapper\\TagProfile.cs",
+              "RelativeToolTip": "TaskApp.Business\\Helper\\Mapper\\TagProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T12:21:33.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITagService.cs.cs",
+              "DocumentMoniker": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\Service\\Interface\\ITagService.cs.cs",
+              "RelativeDocumentMoniker": "TaskApp.Business\\Service\\Interface\\ITagService.cs.cs",
+              "ToolTip": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\Service\\Interface\\ITagService.cs.cs",
+              "RelativeToolTip": "TaskApp.Business\\Service\\Interface\\ITagService.cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T12:15:55.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateTagDto.cs",
+              "DocumentMoniker": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\DTOs\\Tag\\CreateTagDto.cs",
+              "RelativeDocumentMoniker": "TaskApp.Business\\DTOs\\Tag\\CreateTagDto.cs",
+              "ToolTip": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\DTOs\\Tag\\CreateTagDto.cs",
+              "RelativeToolTip": "TaskApp.Business\\DTOs\\Tag\\CreateTagDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T12:02:31.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetTagDto.cs",
+              "DocumentMoniker": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\DTOs\\Tag\\GetTagDto.cs",
+              "RelativeDocumentMoniker": "TaskApp.Business\\DTOs\\Tag\\GetTagDto.cs",
+              "ToolTip": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\DTOs\\Tag\\GetTagDto.cs",
+              "RelativeToolTip": "TaskApp.Business\\DTOs\\Tag\\GetTagDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T12:02:28.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateTagDto.cs",
+              "DocumentMoniker": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\DTOs\\Tag\\UpdateTagDto.cs",
+              "RelativeDocumentMoniker": "TaskApp.Business\\DTOs\\Tag\\UpdateTagDto.cs",
+              "ToolTip": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\DTOs\\Tag\\UpdateTagDto.cs",
+              "RelativeToolTip": "TaskApp.Business\\DTOs\\Tag\\UpdateTagDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T12:02:20.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.API\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskApp.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.API\\appsettings.json",
+              "RelativeToolTip": "TaskApp.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-12T11:54:06.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.DAL\\Repo\\Interface\\IRepository.cs",
+              "RelativeDocumentMoniker": "TaskApp.DAL\\Repo\\Interface\\IRepository.cs",
+              "ToolTip": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.DAL\\Repo\\Interface\\IRepository.cs",
+              "RelativeToolTip": "TaskApp.DAL\\Repo\\Interface\\IRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T11:50:30.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.DAL\\Repo\\Interface\\ITagRepository.cs",
+              "RelativeDocumentMoniker": "TaskApp.DAL\\Repo\\Interface\\ITagRepository.cs",
+              "ToolTip": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.DAL\\Repo\\Interface\\ITagRepository.cs",
+              "RelativeToolTip": "TaskApp.DAL\\Repo\\Interface\\ITagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T11:50:30.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.DAL\\Repo\\Abstraction\\Repository.cs",
+              "RelativeDocumentMoniker": "TaskApp.DAL\\Repo\\Abstraction\\Repository.cs",
+              "ToolTip": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.DAL\\Repo\\Abstraction\\Repository.cs",
+              "RelativeToolTip": "TaskApp.DAL\\Repo\\Abstraction\\Repository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAArwB8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T11:50:22.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.DAL\\Repo\\Abstraction\\TagRepository.cs",
+              "RelativeDocumentMoniker": "TaskApp.DAL\\Repo\\Abstraction\\TagRepository.cs",
+              "ToolTip": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.DAL\\Repo\\Abstraction\\TagRepository.cs",
+              "RelativeToolTip": "TaskApp.DAL\\Repo\\Abstraction\\TagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T11:50:20.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TagController.cs",
+              "DocumentMoniker": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.API\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "TaskApp.API\\Controllers\\TagController.cs",
+              "ToolTip": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.API\\Controllers\\TagController.cs",
+              "RelativeToolTip": "TaskApp.API\\Controllers\\TagController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwCIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T11:49:01.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TagService.cs",
+              "DocumentMoniker": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\Service\\Implementation\\TagService.cs",
+              "RelativeDocumentMoniker": "TaskApp.Business\\Service\\Implementation\\TagService.cs",
+              "ToolTip": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\Service\\Implementation\\TagService.cs",
+              "RelativeToolTip": "TaskApp.Business\\Service\\Implementation\\TagService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwD4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T11:43:39.841Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
