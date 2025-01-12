@@ -25,6 +25,10 @@ namespace TaskApp.Business.Service.Implementation
 
         public async Task<CreateTagDto> CreateAsync(CreateTagDto dto)
         {
+            if(await tagRepository.IsExist(x=>x.Name == dto.Name))
+            {
+                throw new NotFoundException<Tag>("Hal hazirda bele tag var");
+            }
             var tag = mapper.Map<Tag>(dto);
             var newTag = await tagRepository.CreateAsync(tag);
             await tagRepository.SaveChangesAsync();
@@ -36,15 +40,13 @@ namespace TaskApp.Business.Service.Implementation
             var oldTag = await GetById(Id);
             var Tag = mapper.Map<Tag>(oldTag);
             tagRepository.Delete(Tag);
-           await tagRepository.SaveChangesAsync();
-
-
+            await tagRepository.SaveChangesAsync();
         }
 
-        public IQueryable<GetTagDto> GetAll()
+        public IQueryable<GetAllTagDto> GetAll()
         {
             var tagAll = tagRepository.GetAll();
-            var tag = tagAll.Select(c => mapper.Map<GetTagDto>(c));
+            var tag = tagAll.Select(c => mapper.Map<GetAllTagDto>(c));
             return tag;
         }
 
@@ -58,9 +60,13 @@ namespace TaskApp.Business.Service.Implementation
 
         public async Task Update(UpdateTagDto dto)
         {
-/*            var oldTag = await GetById(dto.Id);*/
-          var  oldTag = mapper.Map<GetTagDto>(dto);
-            tagRepository.Update(mapper.Map<Tag>(oldTag));
+            var tag = await GetById(dto.Id);
+            if((tag.Name==dto.Name)  || (await tagRepository.IsExist(x=>x.Name==dto.Name)))
+            {
+                throw new NotFoundException<Tag>("Hal hazirda bele tag var");
+            }
+            var  oldTag = mapper.Map<Tag>(dto);
+            tagRepository.Update(oldTag);
             await tagRepository.SaveChangesAsync();
         }
 

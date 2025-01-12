@@ -15,8 +15,9 @@ namespace TaskApp.Business.Helper.Mapper
         {
             CreateMap<CreateTagDto, Tag>().ReverseMap();
 
-            CreateMap<UpdateTagDto, GetTagDto>().ReverseMap();
+            CreateMap<UpdateTagDto, Tag>().ReverseMap();
             CreateMap<GetTagDto, Tag>().ReverseMap();
+            CreateMap<GetAllTagDto, Tag>().ReverseMap();
         }
 
     }

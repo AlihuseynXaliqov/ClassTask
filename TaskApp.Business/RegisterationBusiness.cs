@@ -15,8 +15,9 @@ namespace TaskApp.Business
         public static void AddRegisterationBusiness(this IServiceCollection services)
         {
             services.AddScoped<ITagService,TagService>();
-            /*services.AddScoped<IUserService ,UserService>();*/
+            services.AddScoped<IUserService, UserService>();
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            services.AddScoped<ITopicService,TopicService>();
         }
     }
 }

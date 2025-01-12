@@ -15,10 +15,14 @@ namespace TaskApp.Business.Helper.Exception
         public NotFoundException() : base()
         {
             ErrorMessage = $"{typeof(T).Name} tapilmadi";
-            StatusCode = 400;
+            StatusCode = 404;
         }
 
-        public NotFoundException(string message) : base(message) { }
+        public NotFoundException(string message) : base(message)
+        {
+            ErrorMessage = message;
+            StatusCode = 404;
+        }
 
 
     }

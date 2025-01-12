@@ -12,7 +12,7 @@ namespace TaskApp.Business.Service.Interface
         public Task<CreateTagDto> CreateAsync(CreateTagDto dto);
         public Task<GetTagDto> GetById(int Id);
 
-        public IQueryable<GetTagDto> GetAll();
+        public IQueryable<GetAllTagDto> GetAll();
         Task Update(UpdateTagDto dto);
         Task Delete(int Id);
     }

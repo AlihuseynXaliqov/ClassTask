@@ -10,7 +10,7 @@ namespace TaskApp.Business.DTOs.Auth
 {
     public record RegisterDto
     {
-        public string Name { get; set; }
+        public string Surname { get; set; }
         public string Username { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
@@ -21,7 +21,7 @@ namespace TaskApp.Business.DTOs.Auth
     {
         public RegisterValidation()
         {
-            RuleFor(x => x.Name)
+            RuleFor(x => x.Surname)
                 .NotEmpty().WithMessage("Name bos ola bilmez")
                 .NotNull().WithMessage("Name null ola bilmez")
                 .MinimumLength(3).WithMessage("Name-in uzunlugu min 3 olmalidi")

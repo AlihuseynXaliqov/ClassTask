@@ -14,6 +14,7 @@ namespace TaskApp.Business.Helper.Mapper
         public UserProfile()
         {
             CreateMap<Employee, RegisterDto>().ReverseMap();
+
         }
     }
 }

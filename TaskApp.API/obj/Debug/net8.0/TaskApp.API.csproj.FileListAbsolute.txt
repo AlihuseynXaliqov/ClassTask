@@ -369,3 +369,4 @@ C:\Users\smart\OneDrive\Desktop\TaskApp\TaskApp.API\obj\Debug\net8.0\refint\Task
 C:\Users\smart\OneDrive\Desktop\TaskApp\TaskApp.API\obj\Debug\net8.0\TaskApp.API.pdb
 C:\Users\smart\OneDrive\Desktop\TaskApp\TaskApp.API\obj\Debug\net8.0\TaskApp.API.genruntimeconfig.cache
 C:\Users\smart\OneDrive\Desktop\TaskApp\TaskApp.API\obj\Debug\net8.0\ref\TaskApp.API.dll
+C:\Users\smart\OneDrive\Desktop\TaskApp\TaskApp.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

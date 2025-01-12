@@ -14,6 +14,8 @@ namespace TaskApp.DAL
         public static void AddRegisterDal(this IServiceCollection services)
         {
             services.AddScoped<ITagRepository, TagRepository>();
+            services.AddScoped<ITopicRepository, TopicRepository>();
+            services.AddScoped<IAssignmentRepository, AssignmentRepository>();
         }
     }
 }

@@ -17,20 +17,29 @@ namespace TaskApp.API.Controllers
             this.tagService = tagService;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Create(CreateTagDto dto)
-        {
-            return StatusCode(StatusCodes.Status201Created, await tagService.CreateAsync(dto));
-        }
-
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
             return StatusCode(StatusCodes.Status200OK, await tagService.GetById(id));
         }
 
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            return StatusCode(StatusCodes.Status200OK,tagService.GetAll());
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create([FromForm]CreateTagDto dto)
+        {
+            return StatusCode(StatusCodes.Status201Created, await tagService.CreateAsync(dto));
+        }
+
+        
+
+
         [HttpPut]
-        public async Task<IActionResult> Update(UpdateTagDto dto)
+        public async Task<IActionResult> Update([FromForm] UpdateTagDto dto)
         {
             await tagService.Update(dto);
             return StatusCode(StatusCodes.Status202Accepted);

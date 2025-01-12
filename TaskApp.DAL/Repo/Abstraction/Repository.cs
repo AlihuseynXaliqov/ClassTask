@@ -1,9 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq.Expressions;
+using Microsoft.EntityFrameworkCore;
 using TaskApp.Core.Model.Base;
 using TaskApp.DAL.Context;
 using TaskApp.DAL.Repo.Interface;
@@ -27,13 +23,22 @@ namespace TaskApp.DAL.Repo.Abstraction
             return entity;
         }
 
-        public IQueryable<TEntity> GetAll()
+        public IQueryable<TEntity> GetAll(params string[] includes)
         {
-            return Table.Where(x => !x.IsDeleted);
+            var query = Table.Where(x => !x.IsDeleted);
+            if (includes is not null)
+            {
+                foreach (var include in includes)
+                {
+                    query = query.Include(include);
+                }
+            }
+
+            return query;
         }
         public async Task<TEntity> GetById(int id)
         {
-            return await Table.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
+            return await Table.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id&&!x.IsDeleted);
         }
 
         public async Task<int> SaveChangesAsync()
@@ -44,7 +49,6 @@ namespace TaskApp.DAL.Repo.Abstraction
        public void Update(TEntity entity)
         {
             Table.Update(entity);
-
         }
 
        
@@ -54,8 +58,11 @@ namespace TaskApp.DAL.Repo.Abstraction
             Table.Update(entity);
         }
 
-        
 
+        public async Task<bool> IsExist(Expression<Func<TEntity, bool>> expression)
+        {
+            return await Table.AsNoTracking().AnyAsync(expression);
+        }
 
     }
 }
