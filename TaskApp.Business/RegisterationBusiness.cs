@@ -18,6 +18,7 @@ namespace TaskApp.Business
             services.AddScoped<IUserService, UserService>();
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddScoped<ITopicService,TopicService>();
+            services.AddScoped<IAssignmentService,AssignmentService>();
         }
     }
 }

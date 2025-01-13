@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.API\\TaskApp.API.csproj": {}
+    "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.API\\TaskApp.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.API\\TaskApp.API.csproj": {
+    "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.API\\TaskApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.API\\TaskApp.API.csproj",
+        "projectUniqueName": "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.API\\TaskApp.API.csproj",
         "projectName": "TaskApp.API",
-        "projectPath": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.API\\TaskApp.API.csproj",
-        "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.API\\obj\\",
+        "projectPath": "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.API\\TaskApp.API.csproj",
+        "packagesPath": "C:\\Users\\classtime\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\smart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\classtime\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\TaskApp.Business.csproj": {
-                "projectPath": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\TaskApp.Business.csproj"
+              "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.Business\\TaskApp.Business.csproj": {
+                "projectPath": "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.Business\\TaskApp.Business.csproj"
               }
             }
           }
@@ -47,8 +47,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -88,24 +87,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\TaskApp.Business.csproj": {
+    "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.Business\\TaskApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\TaskApp.Business.csproj",
+        "projectUniqueName": "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.Business\\TaskApp.Business.csproj",
         "projectName": "TaskApp.Business",
-        "projectPath": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\TaskApp.Business.csproj",
-        "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Business\\obj\\",
+        "projectPath": "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.Business\\TaskApp.Business.csproj",
+        "packagesPath": "C:\\Users\\classtime\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\smart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\classtime\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -120,8 +119,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.DAL\\TaskApp.DAL.csproj": {
-                "projectPath": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.DAL\\TaskApp.DAL.csproj"
+              "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.DAL\\TaskApp.DAL.csproj": {
+                "projectPath": "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.DAL\\TaskApp.DAL.csproj"
               }
             }
           }
@@ -135,8 +134,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -171,24 +169,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Core\\TaskApp.Core.csproj": {
+    "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.Core\\TaskApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Core\\TaskApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.Core\\TaskApp.Core.csproj",
         "projectName": "TaskApp.Core",
-        "projectPath": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Core\\TaskApp.Core.csproj",
-        "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Core\\obj\\",
+        "projectPath": "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.Core\\TaskApp.Core.csproj",
+        "packagesPath": "C:\\Users\\classtime\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\smart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\classtime\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -214,8 +212,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -246,24 +243,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.DAL\\TaskApp.DAL.csproj": {
+    "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.DAL\\TaskApp.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.DAL\\TaskApp.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.DAL\\TaskApp.DAL.csproj",
         "projectName": "TaskApp.DAL",
-        "projectPath": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.DAL\\TaskApp.DAL.csproj",
-        "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.DAL\\obj\\",
+        "projectPath": "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.DAL\\TaskApp.DAL.csproj",
+        "packagesPath": "C:\\Users\\classtime\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\smart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\classtime\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -278,8 +275,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Core\\TaskApp.Core.csproj": {
-                "projectPath": "C:\\Users\\smart\\OneDrive\\Desktop\\TaskApp\\TaskApp.Core\\TaskApp.Core.csproj"
+              "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.Core\\TaskApp.Core.csproj": {
+                "projectPath": "C:\\Users\\classtime\\Source\\Repos\\ClassTask\\TaskApp.Core\\TaskApp.Core.csproj"
               }
             }
           }
@@ -293,8 +290,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -331,7 +327,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
